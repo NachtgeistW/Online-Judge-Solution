@@ -10,9 +10,6 @@ int main(void)
     static char input1[1001], input2[1001];
     for (int a = 1; a <= Case; a++)
     {
-        if (a > 1)
-            printf("\n\n");
-
         //读取数字
         cin >> input1 >> input2;
 
@@ -65,6 +62,9 @@ int main(void)
             for (int i = nmax; i >=0; i--)
                 printf("%d", result[i]);
         }
+        putchar('\n');
+        if (a != Case)
+            printf("\n");
     }
     return 0;
 }
