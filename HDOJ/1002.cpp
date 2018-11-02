@@ -11,6 +11,7 @@ int main(void)
     for (int a = 1; a <= Case; a++)
     {
         //读取数字
+        ios_base::sync_with_stdio(false);
         cin >> input1 >> input2;
 
         //初始化三个数组
