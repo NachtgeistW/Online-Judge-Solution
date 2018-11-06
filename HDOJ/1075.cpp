@@ -6,6 +6,7 @@
 using namespace std;
 int main(void)
 {
+	//读取字典是没有问题的
     ios_base::sync_with_stdio(false);
     string str;
     istringstream ist;
@@ -25,7 +26,7 @@ int main(void)
             auto check = dict.insert(make_pair(str2, str1));
         }
     }
-    
+    //接下来的文本转换有问题，以后再重写
     while(getline(cin, str))
     {
         if (str == "END")
