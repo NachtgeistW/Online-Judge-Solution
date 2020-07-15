@@ -1,5 +1,4 @@
 //http://acm.hdu.edu.cn/showproblem.php?pid=1049
-//贪心
 //直接模拟虫子爬的过程
 #include<cstdio>
 int main(void)
